@@ -1,0 +1,7 @@
+db.dogs.insertMany([
+  { name: "Buddy", breed: "Golden Retriever", age: 5, isGoodBoy: true },
+  { name: "Rex", breed: "German Shepherd", age: 3, isGoodBoy: false },
+  { name: "Max", breed: "Bulldog", age: 2, isGoodBoy: true },
+  { name: "Bella", breed: "Beagle", age: 4, isGoodBoy: true },
+  { name: "Charlie", breed: "Labrador", age: 6, isGoodBoy: false }
+])
